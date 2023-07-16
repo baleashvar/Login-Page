@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>User Login</title>
+  <style>
+    /* ...CSS styles... */
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <div class="heading">
+      <h1>User Login</h1>
+    </div>
+    <div>
+      <% if (error) { %>
+        <p><%= error %></p>
+      <% } %>
+      <form action="/login" method="POST">
+        <label for="email">Your Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="password">Your Password</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <button type="submit">Login -&gt;</button>
+      </form>
+    </div><br>
+    <a href="/register">Register Page</a><br><br>
+  </div>
+</body>
+</html>
