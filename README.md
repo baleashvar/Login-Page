@@ -1,10 +1,9 @@
 # Login-Page
 Login page using node.js
 
-file:///home/bala/Documents/login%20page%20using%20node/images/login.png
+![Login Page](/images/login.png)
 
+![Register Page](/images/register.png)
 
-file:///home/bala/Documents/login%20page%20using%20node/images/register.png
+![Index Page](/images/index.png)
 
-
-file:///home/bala/Documents/login%20page%20using%20node/images/index.png
